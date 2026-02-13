@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "courses": "Cursos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "profile": "Perfil",
+    "dashboard": "Panel",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "forgotPassword": "Olvidé mi Contraseña",
+    "resetPassword": "Restablecer Contraseña",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "rememberMe": "Recordarme",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "sendResetLink": "Enviar Enlace de Restablecimiento",
+    "backToLogin": "Volver al Inicio de Sesión"
+  },
+  "home": {
+    "meta": {
+      "title": "Aprende, Enseña, Crece",
+      "description": "Únete a miles de estudiantes e instructores en EduHub - la plataforma de e-learning completa para el desarrollo de habilidades y el intercambio de conocimientos."
+    },
+    "hero": {
+      "title": "Aprende Sin Límites",
+      "subtitle": "Únete a miles de estudiantes e instructores en nuestra plataforma integral de e-learning",
+      "getStarted": "Comenzar",
+      "browseCourses": "Explorar Cursos",
+      "dashboard": "Ir al Panel"
+    },
+    "stats": {
+      "courses": "Cursos",
+      "students": "Estudiantes",
+      "instructors": "Instructores",
+      "rating": "Calificación Promedio"
+    },
+    "features": {
+      "title": "¿Por Qué Elegir EduHub?",
+      "subtitle": "Descubre las características que hacen que el aprendizaje sea efectivo y agradable",
+      "comprehensive": {
+        "title": "Cursos Integrales",
+        "description": "Accede a una amplia gama de cursos desde nivel principiante hasta avanzado"
+      },
+      "expert": {
+        "title": "Instructores Expertos",
+        "description": "Aprende de profesionales de la industria y educadores experimentados"
+      },
+      "interactive": {
+        "title": "Aprendizaje Interactivo",
+        "description": "Participa con videos, cuestionarios, tareas y sesiones en vivo"
+      },
+      "certified": {
+        "title": "Obtén Certificación",
+        "description": "Gana certificados al completar cursos para mostrar tus habilidades"
+      }
+    },
+    "courses": {
+      "title": "Cursos Destacados",
+      "subtitle": "Explora nuestros cursos más populares y mejor calificados",
+      "viewAll": "Ver Todos los Cursos"
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Estudiantes",
+      "subtitle": "Escucha a los estudiantes que han transformado sus carreras con EduHub"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar a Aprender?",
+      "subtitle": "Únete a nuestra comunidad de estudiantes y lleva tus habilidades al siguiente nivel",
+      "getStarted": "Comenzar Hoy",
+      "learnMore": "Saber Más"
+    }
+  },
+  "courses": {
+    "title": "Todos los Cursos",
+    "searchPlaceholder": "Buscar cursos...",
+    "filterBy": "Filtrar por",
+    "sortBy": "Ordenar por",
+    "category": "Categoría",
+    "level": "Nivel",
+    "price": "Precio",
+    "rating": "Calificación",
+    "duration": "Duración",
+    "free": "Gratis",
+    "paid": "Pagado",
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado",
+    "newest": "Más Nuevo",
+    "oldest": "Más Antiguo",
+    "mostPopular": "Más Popular",
+    "highestRated": "Mejor Calificado",
+    "priceHighToLow": "Precio: Alto a Bajo",
+    "priceLowToHigh": "Precio: Bajo a Alto",
+    "noResults": "No se encontraron cursos que coincidan con tus criterios",
+    "loadMore": "Cargar Más",
+    "enrollNow": "Inscribirse Ahora",
+    "viewDetails": "Ver Detalles"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de nuevo",
+    "myLearning": "Mi Aprendizaje",
+    "continueWhere": "Continúa donde lo dejaste",
+    "upcomingDeadlines": "Próximas Fechas Límite",
+    "recentActivity": "Actividad Reciente",
+    "achievements": "Logros",
+    "progress": "Progreso",
+    "completed": "Completado",
+    "inProgress": "En Progreso",
+    "notStarted": "No Iniciado"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "clear": "Limpiar",
+    "apply": "Aplicar",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "yes": "Sí",
+    "no": "No",
+    "confirm": "Confirmar",
+    "submit": "Enviar",
+    "upload": "Subir",
+    "download": "Descargar",
+    "share": "Compartir",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "selectAll": "Seleccionar Todo",
+    "deselectAll": "Deseleccionar Todo",
+    "noData": "No hay datos disponibles",
+    "comingSoon": "Próximamente"
+  }
+}

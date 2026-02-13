@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "about": "About",
+    "contact": "Contact",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "rememberMe": "Remember Me",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "sendResetLink": "Send Reset Link",
+    "backToLogin": "Back to Login"
+  },
+  "home": {
+    "meta": {
+      "title": "Learn, Teach, Grow",
+      "description": "Join thousands of learners and instructors on EduHub - the complete e-learning platform for skill development and knowledge sharing."
+    },
+    "hero": {
+      "title": "Learn Without Limits",
+      "subtitle": "Join thousands of learners and instructors on our comprehensive e-learning platform",
+      "getStarted": "Get Started",
+      "browseCourses": "Browse Courses",
+      "dashboard": "Go to Dashboard"
+    },
+    "stats": {
+      "courses": "Courses",
+      "students": "Students",
+      "instructors": "Instructors",
+      "rating": "Average Rating"
+    },
+    "features": {
+      "title": "Why Choose EduHub?",
+      "subtitle": "Discover the features that make learning effective and enjoyable",
+      "comprehensive": {
+        "title": "Comprehensive Courses",
+        "description": "Access a wide range of courses from beginner to advanced levels"
+      },
+      "expert": {
+        "title": "Expert Instructors",
+        "description": "Learn from industry professionals and experienced educators"
+      },
+      "interactive": {
+        "title": "Interactive Learning",
+        "description": "Engage with videos, quizzes, assignments, and live sessions"
+      },
+      "certified": {
+        "title": "Get Certified",
+        "description": "Earn certificates upon course completion to showcase your skills"
+      }
+    },
+    "courses": {
+      "title": "Featured Courses",
+      "subtitle": "Explore our most popular and highly-rated courses",
+      "viewAll": "View All Courses"
+    },
+    "testimonials": {
+      "title": "What Our Students Say",
+      "subtitle": "Hear from learners who have transformed their careers with EduHub"
+    },
+    "cta": {
+      "title": "Ready to Start Learning?",
+      "subtitle": "Join our community of learners and take your skills to the next level",
+      "getStarted": "Get Started Today",
+      "learnMore": "Learn More"
+    }
+  },
+  "courses": {
+    "title": "All Courses",
+    "searchPlaceholder": "Search courses...",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "category": "Category",
+    "level": "Level",
+    "price": "Price",
+    "rating": "Rating",
+    "duration": "Duration",
+    "free": "Free",
+    "paid": "Paid",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "mostPopular": "Most Popular",
+    "highestRated": "Highest Rated",
+    "priceHighToLow": "Price: High to Low",
+    "priceLowToHigh": "Price: Low to High",
+    "noResults": "No courses found matching your criteria",
+    "loadMore": "Load More",
+    "enrollNow": "Enroll Now",
+    "viewDetails": "View Details"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "myLearning": "My Learning",
+    "continueWhere": "Continue where you left off",
+    "upcomingDeadlines": "Upcoming Deadlines",
+    "recentActivity": "Recent Activity",
+    "achievements": "Achievements",
+    "progress": "Progress",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "upload": "Upload",
+    "download": "Download",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "required": "Required",
+    "optional": "Optional",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "noData": "No data available",
+    "comingSoon": "Coming Soon"
+  }
+}
