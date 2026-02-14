@@ -30,8 +30,16 @@ const DashboardPage = () => {
 
   const fetchUserStats = async () => {
     try {
-      const response = await userAPI.getStats();
-      setStats(response.data);
+      const response = await fetch('http://localhost:5000/api/v1/users/stats', {
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('token')}`
+        }
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        setStats(data.data);
+      }
     } catch (error) {
       console.error('Error fetching user stats:', error);
     }
@@ -39,8 +47,16 @@ const DashboardPage = () => {
 
   const fetchEnrolledCourses = async () => {
     try {
-      const response = await enrollmentAPI.getMyCourses();
-      setEnrolledCourses(response.data.slice(0, 2)); // Show only first 2 courses
+      const response = await fetch('http://localhost:5000/api/v1/enrollments/my-courses', {
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('token')}`
+        }
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        setEnrolledCourses(data.data.slice(0, 2)); // Show only first 2 courses
+      }
     } catch (error) {
       console.error('Error fetching enrolled courses:', error);
     } finally {
@@ -258,25 +274,6 @@ const DashboardPage = () => {
                   </div>
                 </button>
               </div>
-            </motion.div>
-
-            {/* Learning Streak */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-sm p-6 text-white"
-            >
-              <h2 className="text-xl font-semibold mb-2">Learning Streak</h2>
-              <div className="text-3xl font-bold mb-2">
-                {stats.enrolled > 0 ? `${Math.min(stats.enrolled * 2, 14)} Days` : '0 Days'} 🔥
-              </div>
-              <p className="text-blue-100 text-sm">
-                {stats.enrolled > 0 
-                  ? "Keep it up! You're on a great learning streak." 
-                  : "Start learning to build your streak!"
-                }
-              </p>
             </motion.div>
           </div>
         </div>
