@@ -30,16 +30,8 @@ const DashboardPage = () => {
 
   const fetchUserStats = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/v1/users/stats', {
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        }
-      });
-      
-      if (response.ok) {
-        const data = await response.json();
-        setStats(data.data);
-      }
+      const response = await userAPI.getStats();
+      setStats(response.data);
     } catch (error) {
       console.error('Error fetching user stats:', error);
     }
@@ -47,16 +39,8 @@ const DashboardPage = () => {
 
   const fetchEnrolledCourses = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/v1/enrollments/my-courses', {
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        }
-      });
-      
-      if (response.ok) {
-        const data = await response.json();
-        setEnrolledCourses(data.data.slice(0, 2)); // Show only first 2 courses
-      }
+      const response = await enrollmentAPI.getMyCourses();
+      setEnrolledCourses(response.data.slice(0, 2)); // Show only first 2 courses
     } catch (error) {
       console.error('Error fetching enrolled courses:', error);
     } finally {
